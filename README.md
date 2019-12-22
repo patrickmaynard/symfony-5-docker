@@ -30,18 +30,26 @@ Composer is included
 docker-compose run php-fpm composer 
 ```
 
-To get into the bash command line in the php-fpm container
-
-```
-docker-compose run php-fpm bash
-```
-
 To run fixtures
 
 ```
 docker-compose run php-fpm bin/console doctrine:fixtures:load
 ```
 
+If you're lazy though and want to get into the bash command line in the php-fpm container
+
+```
+docker-compose run php-fpm bash
+```
+
 ### Webserver (Nginx)
 
 ...
+
+### Adding folders to local .git/info/exclude
+
+```
+cd ..
+echo "docker/logs/" >> .git/info/exclude
+echo "docker/database/data/" >> .git/info/exclude
+```

@@ -7,7 +7,7 @@ Modified from https://gitlab.com/martinpham/symfony-5-docker
 To run containers:
 
 ```
-git clone git@gitlab.com:martinpham/symfony-5-docker.git
+git clone https://github.com/patrickmaynard/symfony-5-docker.git
 
 cd symfony-5-docker
 

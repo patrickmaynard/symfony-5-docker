@@ -53,3 +53,7 @@ cd ..
 echo "docker/logs/" >> .git/info/exclude
 echo "docker/database/data/" >> .git/info/exclude
 ```
+
+### TODOs
+
+* Install libsodium. Right now, the symfony app defaults to plaintext password storage! :-)

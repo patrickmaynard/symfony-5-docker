@@ -56,4 +56,4 @@ echo "docker/database/data/" >> .git/info/exclude
 
 ### TODOs
 
-* Install libsodium. Right now, the symfony app defaults to plaintext password storage! :-)
+* Install phpunit and other test tools using instructions from here: https://symfony.com/doc/current/testing.html

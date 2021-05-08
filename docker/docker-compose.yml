@@ -26,6 +26,8 @@ services:
       - DATABASE_URL=mysql://${DATABASE_USER}:${DATABASE_PASSWORD}@database:3306/${DATABASE_NAME}?serverVersion=5.7
     volumes:
       - ../src:/var/www
+    dns:
+      - 8.8.8.8
 
   nginx:
     build:

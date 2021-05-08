@@ -56,6 +56,7 @@ echo "docker/database/data/" >> .git/info/exclude
 
 ### TODOs
 
+* Add the DNS info in docker-compose.yml from your metro rankings project. (This will allow composer to run correctly.)
 * Install phpunit and other test tools using instructions from here: https://symfony.com/doc/current/testing.html
 * Create a simple automated smoke test
 * Update the Symfony and PHP versions to 5.4 and 7.4, respectively

@@ -16,8 +16,6 @@ cd docker
 docker-compose up
 ```
 
-## Compose
-
 ### Database (MariaDB)
 
 ...
@@ -42,6 +40,14 @@ If you're lazy though and want to get into the bash command line in the php-fpm 
 docker-compose run php-fpm bash
 ```
 
+... and you can then run Make commands like this:
+
+```
+make install
+make db
+make test
+```
+
 ### Webserver (Nginx)
 
 ...
@@ -51,12 +57,9 @@ docker-compose run php-fpm bash
 ```
 cd ..
 echo "docker/logs/" >> .git/info/exclude
-echo "docker/database/data/" >> .git/info/exclude
 ```
 
 ### TODOs
 
-* Add the DNS info in docker-compose.yml from your metro rankings project. (This will allow composer to run correctly.)
-* Install phpunit and other test tools using instructions from here: https://symfony.com/doc/current/testing.html
-* Create a simple automated smoke test
 * Update the Symfony and PHP versions to 5.4 and 7.4, respectively
+* All future TODO items should go in GitHub issues.

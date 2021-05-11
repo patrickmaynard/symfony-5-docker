@@ -54,7 +54,12 @@ make test
 
 ### Adding folders to local .git/info/exclude
 
+This will allow you to *locally* omit files from version control. 
+
+That can be useful in many cases -- for example, if you don't want to remove the original database contents, but you also don't want to see every DB change suggested for staging by git.
+
 ```
 cd ..
+echo "docker/database/data/" >> .git/info/exclude
 echo "docker/logs/" >> .git/info/exclude
 ```

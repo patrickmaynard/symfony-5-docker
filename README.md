@@ -58,8 +58,3 @@ make test
 cd ..
 echo "docker/logs/" >> .git/info/exclude
 ```
-
-### TODOs
-
-* Update the Symfony and PHP versions to 5.3 and 7.4, respectively
-* All future TODO items should go in GitHub issues.

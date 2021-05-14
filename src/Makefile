@@ -9,3 +9,6 @@ db:
 
 test:
 	/var/www//vendor/bin/phpunit
+
+test-automated:
+	SYMFONY_DEPRECATIONS_HELPER=disabled /var/www//vendor/bin/phpunit

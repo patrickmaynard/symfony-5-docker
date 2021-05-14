@@ -7,7 +7,7 @@ $projectName = basename(getcwd()); // get the name of your app
 
 echo PHP_EOL;
 echo '+ Starting unit tests'.PHP_EOL;
-exec('docker-compose run --rm php-fpm make test', $output, $returnCode); // command to run tests with any testing framework you like
+exec('cd docker && docker-compose run --rm php-fpm make test-automated', $output, $returnCode); // command to run tests with any testing framework you like
 
 if ($returnCode !== 0) {
   $testSummary = $output;

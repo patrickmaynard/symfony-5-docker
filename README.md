@@ -4,6 +4,25 @@ A Proof-of-concept of a running Symfony 5 application inside containers
 
 Modified from https://gitlab.com/martinpham/symfony-5-docker
 
+### Cloning/renaming the project
+
+To clone and rename the project:
+
+```
+git clone https://github.com/patrickmaynard/symfony-5-docker.git
+mv symfony-5-docker my-new-repo-name
+cd my-new-repo-name
+
+#Now create the new repository manually on GitHub. Then do these steps ...
+
+git remote remove origin
+git remote add origin https://github.com/patrickmaynard/my-new-repo-name.git
+git commit --allow-empty -m "First commit in my new project"
+git push
+```
+
+### Running the project
+
 To run containers:
 
 ```

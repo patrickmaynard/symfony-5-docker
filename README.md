@@ -1,4 +1,4 @@
-# Symfony 5 docker containers
+# OLD, BROKEN - Symfony 5 docker containers
 
 A Proof-of-concept of a running Symfony 5 application inside containers
 

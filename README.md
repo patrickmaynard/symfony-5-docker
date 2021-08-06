@@ -1,5 +1,9 @@
 # OLD, BROKEN - Symfony 5 docker containers
 
+### Use this one instead: https://github.com/patrickmaynard/symfony-five-docker-template
+
+=============
+
 A Proof-of-concept of a running Symfony 5 application inside containers
 
 Modified from https://gitlab.com/martinpham/symfony-5-docker
